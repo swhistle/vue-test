@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div id="app">
+    	<header class="header">
+    		<nav class="nav-menu">
+    			<router-link to="/about">About</router-link>
+    			<router-link to="/blog">Blog</router-link>
+    			<router-link to="/projects">projects</router-link>
+    			<router-link to="/contacts">Contacts</router-link>
+    		</nav>
+    	</header>
+    	<router-view></router-view>
+    </div>
+    <script src="/dist/build.js"></script>
+  </body>
+</html>
